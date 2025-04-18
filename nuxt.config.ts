@@ -17,8 +17,7 @@ export default defineNuxtConfig({
 
   compatibilityDate: '2025-04-18',
 
-  ssr: true,
-
+  ssr: false,
   target: 'static',
   app: {
     baseURL: '/architect-project/'
