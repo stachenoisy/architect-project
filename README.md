@@ -1,4 +1,10 @@
-# Nuxt Minimal Starter
+# Nuxt.JS Simple Architect Project
+
+![preview1](/public/preview/1.png)
+![preview2](/public/preview/2.png)
+![preview3](/public/preview/3.png)
+![preview4](/public/preview/4.png)
+![preview5](/public/preview/5.png)
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -55,21 +61,3 @@ yarn build
 # bun
 bun run build
 ```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
