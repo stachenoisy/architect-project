@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss'],
 
   tailwindcss: {
-    viewer: false, // Tailwind CSS yapılandırma dosyasını kullan
+    viewer: false,
   },
 
   runtimeConfig: {
@@ -17,5 +17,10 @@ export default defineNuxtConfig({
 
   compatibilityDate: '2025-04-18',
 
-  ssr: true, // SSR modunun açık olduğundan emin olun
+  ssr: true,
+
+  target: 'static',
+  app: {
+    baseURL: '/architect-project/'
+  }
 });
